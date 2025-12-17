@@ -1,0 +1,86 @@
+[
+{
+  "directory": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/build",
+  "command": "/usr/bin/c++  -I/home/victor/Documentos/Faculdade/IDJ-Trabalho1/include -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/webp -I/usr/include/opus -std=gnu++17 -o CMakeFiles/game.dir/src/main.cpp.o -c /home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/main.cpp",
+  "file": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/main.cpp",
+  "output": "CMakeFiles/game.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/build",
+  "command": "/usr/bin/c++  -I/home/victor/Documentos/Faculdade/IDJ-Trabalho1/include -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/webp -I/usr/include/opus -std=gnu++17 -o CMakeFiles/game.dir/src/Game.cpp.o -c /home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/Game.cpp",
+  "file": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/Game.cpp",
+  "output": "CMakeFiles/game.dir/src/Game.cpp.o"
+},
+{
+  "directory": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/build",
+  "command": "/usr/bin/c++  -I/home/victor/Documentos/Faculdade/IDJ-Trabalho1/include -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/webp -I/usr/include/opus -std=gnu++17 -o CMakeFiles/game.dir/src/State.cpp.o -c /home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/State.cpp",
+  "file": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/State.cpp",
+  "output": "CMakeFiles/game.dir/src/State.cpp.o"
+},
+{
+  "directory": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/build",
+  "command": "/usr/bin/c++  -I/home/victor/Documentos/Faculdade/IDJ-Trabalho1/include -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/webp -I/usr/include/opus -std=gnu++17 -o CMakeFiles/game.dir/src/GameObject.cpp.o -c /home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/GameObject.cpp",
+  "file": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/GameObject.cpp",
+  "output": "CMakeFiles/game.dir/src/GameObject.cpp.o"
+},
+{
+  "directory": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/build",
+  "command": "/usr/bin/c++  -I/home/victor/Documentos/Faculdade/IDJ-Trabalho1/include -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/webp -I/usr/include/opus -std=gnu++17 -o CMakeFiles/game.dir/src/Animator.cpp.o -c /home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/Animator.cpp",
+  "file": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/Animator.cpp",
+  "output": "CMakeFiles/game.dir/src/Animator.cpp.o"
+},
+{
+  "directory": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/build",
+  "command": "/usr/bin/c++  -I/home/victor/Documentos/Faculdade/IDJ-Trabalho1/include -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/webp -I/usr/include/opus -std=gnu++17 -o CMakeFiles/game.dir/src/Sprite.cpp.o -c /home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/Sprite.cpp",
+  "file": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/Sprite.cpp",
+  "output": "CMakeFiles/game.dir/src/Sprite.cpp.o"
+},
+{
+  "directory": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/build",
+  "command": "/usr/bin/c++  -I/home/victor/Documentos/Faculdade/IDJ-Trabalho1/include -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/webp -I/usr/include/opus -std=gnu++17 -o CMakeFiles/game.dir/src/SpriteRenderer.cpp.o -c /home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/SpriteRenderer.cpp",
+  "file": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/SpriteRenderer.cpp",
+  "output": "CMakeFiles/game.dir/src/SpriteRenderer.cpp.o"
+},
+{
+  "directory": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/build",
+  "command": "/usr/bin/c++  -I/home/victor/Documentos/Faculdade/IDJ-Trabalho1/include -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/webp -I/usr/include/opus -std=gnu++17 -o CMakeFiles/game.dir/src/Music.cpp.o -c /home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/Music.cpp",
+  "file": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/Music.cpp",
+  "output": "CMakeFiles/game.dir/src/Music.cpp.o"
+},
+{
+  "directory": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/build",
+  "command": "/usr/bin/c++  -I/home/victor/Documentos/Faculdade/IDJ-Trabalho1/include -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/webp -I/usr/include/opus -std=gnu++17 -o CMakeFiles/game.dir/src/Zombie.cpp.o -c /home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/Zombie.cpp",
+  "file": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/Zombie.cpp",
+  "output": "CMakeFiles/game.dir/src/Zombie.cpp.o"
+},
+{
+  "directory": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/build",
+  "command": "/usr/bin/c++  -I/home/victor/Documentos/Faculdade/IDJ-Trabalho1/include -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/webp -I/usr/include/opus -std=gnu++17 -o CMakeFiles/game.dir/src/TileSet.cpp.o -c /home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/TileSet.cpp",
+  "file": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/TileSet.cpp",
+  "output": "CMakeFiles/game.dir/src/TileSet.cpp.o"
+},
+{
+  "directory": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/build",
+  "command": "/usr/bin/c++  -I/home/victor/Documentos/Faculdade/IDJ-Trabalho1/include -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/webp -I/usr/include/opus -std=gnu++17 -o CMakeFiles/game.dir/src/TileMap.cpp.o -c /home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/TileMap.cpp",
+  "file": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/TileMap.cpp",
+  "output": "CMakeFiles/game.dir/src/TileMap.cpp.o"
+},
+{
+  "directory": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/build",
+  "command": "/usr/bin/c++  -I/home/victor/Documentos/Faculdade/IDJ-Trabalho1/include -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/webp -I/usr/include/opus -std=gnu++17 -o CMakeFiles/game.dir/src/Resources.cpp.o -c /home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/Resources.cpp",
+  "file": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/Resources.cpp",
+  "output": "CMakeFiles/game.dir/src/Resources.cpp.o"
+},
+{
+  "directory": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/build",
+  "command": "/usr/bin/c++  -I/home/victor/Documentos/Faculdade/IDJ-Trabalho1/include -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/webp -I/usr/include/opus -std=gnu++17 -o CMakeFiles/game.dir/src/Sound.cpp.o -c /home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/Sound.cpp",
+  "file": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/Sound.cpp",
+  "output": "CMakeFiles/game.dir/src/Sound.cpp.o"
+},
+{
+  "directory": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/build",
+  "command": "/usr/bin/c++  -I/home/victor/Documentos/Faculdade/IDJ-Trabalho1/include -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/webp -I/usr/include/opus -std=gnu++17 -o CMakeFiles/game.dir/src/Camera.cpp.o -c /home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/Camera.cpp",
+  "file": "/home/victor/Documentos/Faculdade/IDJ-Trabalho1/src/Camera.cpp",
+  "output": "CMakeFiles/game.dir/src/Camera.cpp.o"
+}
+]
