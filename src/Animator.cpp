@@ -29,15 +29,14 @@ sr->SetFrame(currentFrame);
 
 
 void Animator::Update(float dt){
-(void)dt; // por enquanto ignorado conforme enunciado
-if (frameTime == 0.f) return; // sem animação
-timeElapsed += 1.f; // incrementos constantes (ajustaremos com dt depois)
-if (timeElapsed > frameTime){
-timeElapsed -= frameTime;
-currentFrame++;
-if (currentFrame > frameEnd) currentFrame = frameStart;
-if (auto* sr = associated.GetComponent<SpriteRenderer>()) {
-sr->SetFrame(currentFrame);
-}
+if (frameTime <= 0.f) return; // sem animação
+timeElapsed += dt;
+if (timeElapsed >= frameTime){
+    timeElapsed -= frameTime;
+    currentFrame++;
+    if (currentFrame > frameEnd) currentFrame = frameStart;
+    if (auto* sr = associated.GetComponent<SpriteRenderer>()) {
+        sr->SetFrame(currentFrame);
+    }
 }
 }

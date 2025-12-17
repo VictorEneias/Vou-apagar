@@ -65,6 +65,7 @@ SDL_Quit();
 
 void Game::Run(){
     Uint32 last = SDL_GetTicks();
+    state->Start();
     while (!state->QuitRequested()){
         Uint32 now = SDL_GetTicks();
         float dt = (now - last) / 1000.f;

@@ -42,8 +42,11 @@ void Sprite::SetClip(int x, int y, int w, int h) {
 
 void Sprite::Render(int x, int y, int w, int h) const {
     if (!texture) return;
-    SDL_Rect dst{ x - (int)Camera::posX, y - (int)Camera::posY, w, h };
-    SDL_RenderCopy(Game::GetInstance().GetRenderer(), texture, &clipRect, &dst);
+    SDL_Rect dst{ x - (int)Camera::posX, y - (int)Camera::posY,
+                  (int)(w * scale.x), (int)(h * scale.y) };
+    SDL_Point center{ dst.w / 2, dst.h / 2 };
+    SDL_RenderCopyEx(Game::GetInstance().GetRenderer(), texture, &clipRect, &dst,
+                     angleDeg, &center, flip);
 }
 
 void Sprite::SetFrame(int frame) {
@@ -72,6 +75,20 @@ void Sprite::SetFrameCount(int fcw, int fch) {
     frameCountW = (fcw > 0 ? fcw : 1);
     frameCountH = (fch > 0 ? fch : 1);
     SetFrame(0);
+}
+
+void Sprite::SetScale(float sx, float sy) {
+    scale = { sx, sy };
+}
+
+void Sprite::SetFlip(bool flipH, bool flipV) {
+    flip = SDL_FLIP_NONE;
+    if (flipH) flip = static_cast<SDL_RendererFlip>(flip | SDL_FLIP_HORIZONTAL);
+    if (flipV) flip = static_cast<SDL_RendererFlip>(flip | SDL_FLIP_VERTICAL);
+}
+
+void Sprite::SetAngle(double angle){
+    angleDeg = angle;
 }
 
 int Sprite::GetWidth() const {

@@ -21,6 +21,10 @@ add_executable(game
     src/Resources.cpp
     src/Sound.cpp
     src/Camera.cpp
+    src/Character.cpp
+    src/Gun.cpp
+    src/PlayerController.cpp
+    src/Bullet.cpp
 )
 
 target_include_directories(game PRIVATE include)
