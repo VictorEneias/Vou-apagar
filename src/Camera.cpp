@@ -10,6 +10,7 @@ GameObject* Camera::focus{nullptr};
 
 void Camera::Follow(GameObject* go){ focus = go; }
 void Camera::Unfollow(){ focus = nullptr; }
+GameObject* Camera::GetFocus(){ return focus; }
 
 void Camera::Update(float dt){
   if(focus){

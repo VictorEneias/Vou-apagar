@@ -10,23 +10,22 @@
 
 class State {
 public:
-State();
-~State();
+    State();
+    ~State();
 
+    void Start();
+    void LoadAssets();
+    void Update(float dt);
+    void Render();
 
-void LoadAssets();
-void Update(float dt);
-void Render();
+    std::weak_ptr<GameObject> AddObject(GameObject* go);
+    std::weak_ptr<GameObject> GetObjectPtr(GameObject* go);
 
-
-void AddObject(GameObject* go);
-
-
-bool QuitRequested() const { return quitRequested; }
-
+    bool QuitRequested() const { return quitRequested; }
 
 private:
-std::vector<std::unique_ptr<GameObject>> objectArray;
-Music music;
-bool quitRequested{false};
+    std::vector<std::shared_ptr<GameObject>> objectArray;
+    Music music;
+    bool quitRequested{false};
+    bool started{false};
 };

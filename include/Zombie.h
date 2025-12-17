@@ -1,6 +1,7 @@
 #pragma once
 #include "Component.h"
 #include "Sound.h"
+#include "Timer.h"
 
 class Zombie : public Component {
 public:
@@ -11,5 +12,8 @@ public:
 private:
     int hitpoints{100};
     bool dead{false};
+    bool hit{false};
+    Timer deathTimer;
+    Timer hitTimer;
     Sound deathSound;
 };
